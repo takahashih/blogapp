@@ -32,4 +32,5 @@
             <arg line="AllTests" />
         </exec>
     </target>
+<target name="build" depends="prepare,caketest,behat"/>
 </project>
